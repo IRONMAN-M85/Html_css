@@ -1,0 +1,72 @@
+/* body { */
+
+
+/* background-image: url('/img/1.jpg'); */
+
+
+/* background-repeat: no-repeat; */
+
+
+/* color: rgb(255, 0, 0); */
+
+
+/* background-size: auto; */
+
+
+/* background-size: cover;  */
+
+
+/*Note : cover ley tyo area lai jasari ni purai cover garxa bhanet contian ley pixel na bigari ka na img lai area ma fit garauxa */
+
+
+/* more value */
+
+
+/* background-size: contain; */
+
+
+/* background-repeat: repeat-y; */
+
+
+/* background-repeat: repeat-x; */
+
+
+/* } */
+
+
+/* maile ma img lai text ko background lai ni set garna sakxu yesari */
+
+
+/* .container {
+    background-image: url('/img/1.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    /* background-repeat: repeat-y; */
+
+
+/* background-repeat: repeat-x; */
+
+.container {
+    background-image: url('/img/1.jpg');
+    background-repeat: no-repeat;
+    color: red;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cont2 {
+    background-image: url('/img/1.jpg');
+    color: red;
+    background-size: cover;
+}
+
+
+/* eeuta ajai shortcut method xa jasam ma yesari perform garna sakxu
+background : color image background-repeat_value  background-attachment*/
+
+.cont3 {
+    background: rgb(139, 198, 221) url('/img/1.jpg') no-repeat fixed top right;
+    background-size: contain;
+    color: rgb(255, 0, 0);
+}

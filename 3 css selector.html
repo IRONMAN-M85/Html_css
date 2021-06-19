@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- inline css ko priority dherai hunxa tespaxi  style tag ko ani tespaxi linked css file -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector</title>
+    <style>
+        /* yaha pey h1 aur div selector hai */
+        /* sab h1 ma hunxa */
+        
+        h1 {
+            color: red;
+        }
+        /* sab div ma */
+        
+        div {
+            color: turquoise;
+        }
+        /* yesko matlab ki harek paragraph alpha class bhako ma apply hunxa
+         /* i can even do for id tara id eeuta nai hunxa*/
+        
+        p.alpha {
+            background-color: rgb(89, 56, 56);
+        }
+        /* similiarly * lai use garna sakxu sab element lai use garna ko lagi */
+        
+        * {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>This is css selector demonstration</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos modi quisquam, corporis omnis dignissimos. Ducimus fuga, recusandae doloremque molestiae dignissimos facilis tempore non voluptate aperiam cupiditate, vel magnam dolor itaque. Unde alias
+        ullam sint.
+    </div><br>
+
+    <div>
+        <h1>This is another h1 tag which also get change</h1>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, molestias?
+
+        <p class="alpha">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, rerum?</p>
+        <br>
+        <p class="alpha">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam commodi ipsum inventore ut accusamus vel numquam dolor enim, quo sequi, cum animi eaque voluptate at quidem magnam ea ex temporibus eos provident soluta assumenda. Natus aut quaerat
+            consectetur itaque? Sed quis eum error facilis autem?</p>
+    </div>
+</body>
+
+</html>

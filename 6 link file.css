@@ -1,0 +1,44 @@
+.ul {
+    background-color: #1b1b19;
+    color: rgb(204, 129, 85);
+    width: 20vw;
+    height: 30vh;
+}
+
+.link_color_change {
+    color: rgb(199, 197, 214);
+}
+
+* {
+    margin: 0;
+    padding: 1;
+}
+
+.color_chg {
+    color: red;
+    /* question ko anusar ley ma yo use garna sakdina question ma color bhaney ko xa matra so background color halna mileyna 
+    background-color: rgb(0, 225, 255); */
+}
+
+.background {
+    height: 344px;
+    width: 344px;
+    background-image: url('/img/1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: 300px 300px;
+}
+
+.qpart3 {
+    /* box banatey hai jo scroll mai madat kareyga */
+    width: 400px;
+    height: 1333px;
+    background-color: #dbff10;
+    color: rgb(170, 4, 4);
+    background-image: url('/img/2.jpg');
+    background-size: 400px, 750px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-attachment: fixed;
+}
