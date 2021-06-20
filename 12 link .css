@@ -1,0 +1,24 @@
+.div1 {
+    padding: 10px;
+    width: 1008px;
+    height: 450px;
+    border: solid black 2px;
+    background: rgba(255, 0, 0, 0.404);
+}
+
+.p1 {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p2 {
+    line-height: 40px;
+    padding: 10px;
+    font-size: 25px;
+    /* yo wala font google font bata magako xu */
+    font-family: 'Dancing Script', cursive;
+}

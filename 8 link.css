@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aqua;
+}
+
+.box1 {
+    margin: 25px;
+    padding: 15px;
+    height: 140px;
+    width: 380px;
+    border: 5px solid red;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.203);
+}
+
+.box2 {
+    margin: 25px;
+    /*yo wala margin box ko hoina*/
+    padding: 15px;
+    height: 140px;
+    width: 380px;
+    border: 5px solid red;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.203);
+}
+
+.note {
+    margin: 25px;
+    padding: 10px;
+    width: 400px;
+    height: 125px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-style: dashed;
+    border-color: #ef0aff;
+    border-width: 5px;
+}
