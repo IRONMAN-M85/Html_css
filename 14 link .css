@@ -1,0 +1,37 @@
+body{
+    font-size: 20px;
+}
+.containerall{
+text-align: center;
+}
+
+.em2{
+text-align: center;
+font-size:2em;
+
+}
+.em3{
+text-align: center;
+font-size: 3em;
+    
+}
+html{
+font-size: 25px ;
+}
+.rem{
+text-align: center;
+font-size:1rem;
+    
+}
+.rem3{
+text-align: center;
+ font-size:3rem;
+}
+.box{
+    text-align:center;
+    margin-left: 25vw;
+background: red;
+width: 50vw;
+height:50vh;
+}
+
