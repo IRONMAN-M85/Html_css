@@ -1,0 +1,14 @@
+.container{
+    background-color: red;
+    height: 50vh;
+}
+@media screen and (max-width : 800px) {
+    .container{
+        background:yellow;
+        height : 50vh ;
+    }
+    
+}
+div{
+    
+}

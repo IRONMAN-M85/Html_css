@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:black;
+    color:white;
+    height: 50px;
+}
+ul{
+display: inline-grid;
+grid-template-columns: auto auto auto;
+list-style:none;
+}
+
+nav ul li {
+    margin: 17px;
+    padding:0px 21px;
+}
