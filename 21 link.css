@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height:80px;
+    background-color:rgba(230, 140, 23, 0.575);
+    z-index: 1;
+}
+
+nav ul li{
+    padding:10px 15px;
+    display:inline-block;
+    margin-right:10px;
+}
+img{
+    padding:10px 5px;
+    height:60px;
+    background:rgb(255, 255, 255);
+}
+nav{
+    color: rgb(255, 255, 255);
+    display:inline;
+    padding:5px;
+}
+.both{
+    display:flex;
+    justify-content:space-between ;
+}
+nav ul li a {
+    text-decoration:none;
+    color:white;
+    font-size: 25px;
+}
+.background{
+    background-image:url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg') ;
+    height: 40vh;
+    width: 100vw;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.box{
+    height: 25vh;
+    width: 12vw;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    left: 225px;
+}
+.box2{
+    height: 25vh;
+    width: 12vw;
+    background-color: rgb(255, 166, 0);
+}
+.box3{
+    height: 25vh;
+    width: 12vw;
+    background-color: rgb(145, 255, 0);
+    position: relative;
+    right: 225Px;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    position: relative;
+    top: 85px;
+}
+.img{
+    height: 25vh;
+background: rgb(255, 255, 255);
+width: 12vw;
+}
+
+

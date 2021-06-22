@@ -5,86 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="18 link.css">
     <title>flexbox</title>
 </head>
-.
-
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>float</title>
-        <style>
-            * {
-                margin: 0;
-                padding: 0;
-            }
-
-            .container {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                height: 100vh;
-                /* width:100%; */
-                background: rgba(9, 243, 173, 0.678);
-                justify-content: center;
-                align-items: center;
-                /* align-content:center; */
-                /* align content and item are different */
-                
-            }
-
-            .box1 {
-                height: 344px;
-                width: 344px;
-                background-color: aqua;
-                font-size: 45px;
-                border: solid black 4px;
-                /* align-self:flex-end; */
-                flex-grow: 2;
-                align-self: stretch;
-
-            }
-
-            .box2 {
-                height: 344px;
-                width: 344px;
-                background-color: rgb(96, 192, 41);
-                font-size: 45px;
-                border: solid black 4px;
-                order: -1;
-                align-self: stretch;
-
-                flex-grow: 2;
-            }
-
-            .box1a {
-                height: 344px;
-                width: 344px;
-                background-color: rgb(255, 0, 0);
-                font-size: 45px;
-                border: solid black 4px;
-                order: 4;
-                flex-grow: 2;
-            }
-
-            .box2a {
-                height: 344px;
-                width: 344px;
-                background-color: rgb(184, 160, 228);
-                font-size: 45px;
-                border: solid black 4px;
-                /* align-self:flex-start; */
-                flex-grow: 3;
-            }
-        </style>
-    </head>
-
-    <body>
         <div class="container">
             <div class="box1">1</div>
             <div class="box1">2</div>
@@ -92,8 +16,5 @@
             <div class="box2a">4</div>
         </div>
     </body>
-
-    </html>
-</body>
 
 </html>

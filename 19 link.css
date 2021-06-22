@@ -1,0 +1,35 @@
+*{
+margin: 0%; 
+padding:0%;
+}
+
+header{
+    background-color:black;
+    color:white;
+    height:60px;
+}
+ul{
+    padding:20px;
+}
+li{
+    list-style:none;
+    display: inline-block;
+    padding:0px 20px;
+}
+.box1{
+    width:40vw;
+    height:50vh;
+    background:rgb(255, 0, 0);
+    float:left;
+}
+.box2{
+    width:40vw;
+    height:50vh;
+    background:rgba(17, 245, 112, 0.404);
+    float:right;
+    /* clear:left; */
+}
+.note{
+    clear:left;
+}
+ 
