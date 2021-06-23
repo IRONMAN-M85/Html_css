@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ul li {
+    margin:20px 8px ;
+    padding:0px 4px; 
+}
+header{
+    background-color: rgba(10, 141, 158, 0.602);
+    height:55px;
+    color: white;
+}
+
